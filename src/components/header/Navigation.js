@@ -84,7 +84,8 @@ class Navigation extends Component {
               </Nav>
             </Collapse>
             <div className="right">
-                  <div>
+                  <Link
+                  to="/">
                     <svg
                       width="21"
                       height="21"
@@ -98,7 +99,7 @@ class Navigation extends Component {
                         fill-opacity="0.75"
                       />
                     </svg>
-                  </div>
+                  </Link>
                   <div>
                     <svg
                       width="21"
@@ -114,7 +115,8 @@ class Navigation extends Component {
                       />
                     </svg>
                   </div>
-                  <div>
+                  <Link
+                  to='/login'>
                     <svg
                       width="21"
                       height="21"
@@ -128,7 +130,7 @@ class Navigation extends Component {
                         fill-opacity="0.75"
                       />
                     </svg>
-                  </div>
+                  </Link>
                 </div>
           </div>
         </Navbar>

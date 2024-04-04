@@ -27,7 +27,7 @@ function SignUp() {
         auth(values, 'login');
         setTimeout(() => {
           navigate("/");
-        }, 3000);
+        }, 2000);
         // console.log('isValid', isValid);
       }}
       validate={(values) => {

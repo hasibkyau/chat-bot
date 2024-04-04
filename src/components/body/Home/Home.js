@@ -7,10 +7,19 @@ import FooterBanner from "./components/FooterBanner";
 import FooterContact from "./components/FooterContact";
 import CarouselComponent from "./components/carousel/carousel";
 import TopProducts from "./components/top-products/top-products";
+import { auth } from "../../signup/actionCreators";
+import { useNavigate } from "react-router-dom";
+
 import './Home.css'
+
 class Home extends Component {
+    
     render() {
+        const token = localStorage.getItem('token');
+
+   
         document.title = "Home";
+        // console.log(localStorage.getItem.);
         return (
             <div class="home-container">
                 <CarouselComponent></CarouselComponent>

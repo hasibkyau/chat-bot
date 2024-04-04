@@ -41,10 +41,16 @@ const logIn = (authData) => {
                 // useNavigate("/");
                 // isValid = true;
                 // return isValid
+            }else{
+                // useNavigate("/login");
             }
         }).then(console.log)
 
        
+}
+
+export const authCheck = (token) => {
+    getData(token);
 }
 
 
