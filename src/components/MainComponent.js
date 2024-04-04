@@ -8,7 +8,7 @@ const MainComponent = () =>{
         <div>
             <Header/>
             <Body/>
-            <Footer/>
+            {/* <Footer/> */}
         </div>
     );
 }

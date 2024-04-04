@@ -1,0 +1,41 @@
+.main-container{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.left{
+    /* border: 2px solid red; */
+}
+
+.mr-auto{
+    /* border: 2px sold rgb(23, 21, 21); */
+    display: flex;
+}
+
+.items{
+    /* border: 2px solid green; */
+}
+
+.navbar-nav{
+   /* border: 2px solid red; */
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: row;
+}
+
+.middle{
+    /* border: 2px solid purple; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right{
+    /* border: 2px solid red; */
+    display: flex;
+    gap: 16px;
+}
