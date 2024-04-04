@@ -7,12 +7,12 @@ import FooterBanner from "./components/FooterBanner";
 import FooterContact from "./components/FooterContact";
 import CarouselComponent from "./components/carousel/carousel";
 import TopProducts from "./components/top-products/top-products";
-
+import './Home.css'
 class Home extends Component {
     render() {
         document.title = "Home";
         return (
-            <div>
+            <div class="home-container">
                 <CarouselComponent></CarouselComponent>
 
                 <TopProducts></TopProducts>

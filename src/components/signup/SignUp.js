@@ -96,9 +96,13 @@ function SignUp() {
                   type="submit"
                 >Send Message
                 </button>
+                
                 </div>
-
-                {/* <p style={{ textAlign: "center" }}>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <p style={{ textAlign: "center" }}>
                   Already have an account?{" "}
                   <b
                     style={{
@@ -110,7 +114,7 @@ function SignUp() {
                   >
                     LOGIN HERE!
                   </b>
-                </p> */}
+                </p>
                 <br />
               </div>
             ) : count === 2 ? (

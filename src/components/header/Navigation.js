@@ -28,7 +28,7 @@ class Navigation extends Component {
   render() {
     return (
       <div>
-        <Navbar fixed="top" light color="light" expand="sm">
+        <Navbar fixed="top" light color="white" expand="sm">
           <div className="container main-container">
             <div className="left">
             <NavbarToggler onClick={this.navToggle} />

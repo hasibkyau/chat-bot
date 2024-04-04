@@ -2,6 +2,7 @@
     /* border: 2px solid red; */
     display: flex;
     justify-content: space-between;
+    /* background: red; */
 }
 
 .left{
@@ -38,4 +39,38 @@
     /* border: 2px solid red; */
     display: flex;
     gap: 16px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .middle{
+        /* border: 2px solid purple; */
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .right{
+        display: none;
+    }
+
+    .middle{
+        display: none;
+    }
+    
+}
+
+@media only screen and (max-width: 468px) {
+    .middle{
+        display: block;
+    }
+    .right{
+        display: none;
+    }
+    .left{
+        /* border: 1px solid red; */
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
 }
